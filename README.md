@@ -10,13 +10,11 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
         }
-
         /* 헤더 섹션 */
         .header {
             background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%);
@@ -28,7 +26,6 @@
             z-index: 1000;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-
         .nav-container {
             max-width: 1200px;
             margin: 0 auto;
@@ -37,7 +34,6 @@
             align-items: center;
             padding: 0 2rem;
         }
-
         .logo {
             font-size: 2rem;
             font-weight: bold;
@@ -45,24 +41,20 @@
             align-items: center;
             gap: 0.5rem;
         }
-
         .nav-menu {
             display: flex;
             gap: 2rem;
             list-style: none;
         }
-
         .nav-menu a {
             color: white;
             text-decoration: none;
             font-weight: 500;
             transition: opacity 0.3s;
         }
-
         .nav-menu a:hover {
             opacity: 0.8;
         }
-
         .cta-button {
             background: rgba(255,255,255,0.2);
             padding: 0.75rem 1.5rem;
@@ -72,11 +64,9 @@
             font-weight: bold;
             transition: background 0.3s;
         }
-
         .cta-button:hover {
             background: rgba(255,255,255,0.3);
         }
-
         /* 히어로 섹션 */
         .hero {
             background: linear-gradient(135deg, #FFE5B4 0%, #FFCCCB 30%, #E6E6FA 70%, #B0E0E6 100%);
@@ -85,7 +75,6 @@
             position: relative;
             overflow: hidden;
         }
-
         .hero::before {
             content: '';
             position: absolute;
@@ -96,12 +85,10 @@
             background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.4)"/><circle cx="80" cy="40" r="1.5" fill="rgba(255,255,255,0.5)"/><circle cx="40" cy="80" r="1" fill="rgba(255,255,255,0.6)"/></svg>') repeat;
             animation: float 20s infinite linear;
         }
-
         @keyframes float {
             0% { transform: translateY(0px); }
             100% { transform: translateY(-100px); }
         }
-
         .hero-content {
             max-width: 800px;
             margin: 0 auto;
@@ -109,7 +96,6 @@
             position: relative;
             z-index: 1;
         }
-
         .hero-title {
             font-size: 3.5rem;
             font-weight: bold;
@@ -117,27 +103,23 @@
             margin-bottom: 1rem;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
-
         .hero-subtitle {
             font-size: 1.5rem;
             color: #34495E;
             margin-bottom: 2rem;
         }
-
         .hero-description {
             font-size: 1.2rem;
             color: #555;
             margin-bottom: 3rem;
             line-height: 1.8;
         }
-
         .hero-buttons {
             display: flex;
             gap: 1rem;
             justify-content: center;
             flex-wrap: wrap;
         }
-
         .primary-button {
             background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
             color: white;
@@ -151,12 +133,10 @@
             transition: transform 0.3s;
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
-
         .primary-button:hover {
             transform: translateY(-2px);
             box-shadow: 0 8px 25px rgba(0,0,0,0.3);
         }
-
         .secondary-button {
             background: transparent;
             color: #2C3E50;
@@ -169,24 +149,20 @@
             text-decoration: none;
             transition: all 0.3s;
         }
-
         .secondary-button:hover {
             background: #2C3E50;
             color: white;
         }
-
         /* 문제 섹션 */
         .problem-section {
             padding: 80px 0;
             background: #f8f9fa;
         }
-
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
         }
-
         .section-title {
             font-size: 2.5rem;
             text-align: center;
@@ -194,14 +170,12 @@
             margin-bottom: 3rem;
             font-weight: bold;
         }
-
         .problem-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             margin-bottom: 3rem;
         }
-
         .problem-card {
             background: white;
             padding: 2rem;
@@ -210,41 +184,34 @@
             text-align: center;
             transition: transform 0.3s;
         }
-
         .problem-card:hover {
             transform: translateY(-5px);
         }
-
         .problem-icon {
             font-size: 3rem;
             margin-bottom: 1rem;
         }
-
         .problem-title {
             font-size: 1.3rem;
             color: #E74C3C;
             margin-bottom: 1rem;
             font-weight: bold;
         }
-
         .problem-text {
             color: #666;
             line-height: 1.6;
         }
-
         /* 솔루션 섹션 */
         .solution-section {
             padding: 80px 0;
             background: white;
         }
-
         .features-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
-
         .feature-card {
             background: linear-gradient(145deg, #f0f8ff, #e6f3ff);
             padding: 2rem;
@@ -253,42 +220,35 @@
             transition: all 0.3s;
             border: 1px solid #e0e0e0;
         }
-
         .feature-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(0,0,0,0.1);
         }
-
         .feature-icon {
             font-size: 3.5rem;
             margin-bottom: 1rem;
         }
-
         .feature-title {
             font-size: 1.4rem;
             color: #2C3E50;
             margin-bottom: 1rem;
             font-weight: bold;
         }
-
         .feature-description {
             color: #666;
             line-height: 1.6;
             margin-bottom: 1rem;
         }
-
         .feature-list {
             list-style: none;
             text-align: left;
         }
-
         .feature-list li {
             color: #555;
             margin-bottom: 0.5rem;
             padding-left: 1.5rem;
             position: relative;
         }
-
         .feature-list li::before {
             content: '✓';
             position: absolute;
@@ -296,21 +256,18 @@
             color: #4ECDC4;
             font-weight: bold;
         }
-
         /* 타겟 섹션 */
         .target-section {
             padding: 80px 0;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
         }
-
         .target-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
-
         .target-card {
             background: rgba(255,255,255,0.1);
             padding: 2rem;
@@ -319,23 +276,19 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255,255,255,0.2);
         }
-
         .target-icon {
             font-size: 3rem;
             margin-bottom: 1rem;
         }
-
         .target-title {
             font-size: 1.3rem;
             margin-bottom: 1rem;
             font-weight: bold;
         }
-
         .target-description {
             line-height: 1.6;
             opacity: 0.9;
         }
-
         /* CTA 섹션 */
         .cta-section {
             padding: 80px 0;
@@ -343,31 +296,26 @@
             color: white;
             text-align: center;
         }
-
         .cta-content {
             max-width: 600px;
             margin: 0 auto;
         }
-
         .cta-title {
             font-size: 2.5rem;
             margin-bottom: 1rem;
             font-weight: bold;
         }
-
         .cta-description {
             font-size: 1.2rem;
             margin-bottom: 2rem;
             opacity: 0.9;
         }
-
         .cta-buttons {
             display: flex;
             gap: 1rem;
             justify-content: center;
             flex-wrap: wrap;
         }
-
         .cta-primary {
             background: white;
             color: #FF6B6B;
@@ -380,78 +328,63 @@
             text-decoration: none;
             transition: transform 0.3s;
         }
-
         .cta-primary:hover {
             transform: translateY(-2px);
         }
-
         /* 푸터 */
         .footer {
             background: #2C3E50;
             color: white;
             padding: 3rem 0 1rem;
         }
-
         .footer-content {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 2rem;
             margin-bottom: 2rem;
         }
-
         .footer-section h3 {
             margin-bottom: 1rem;
             color: #4ECDC4;
         }
-
         .footer-section ul {
             list-style: none;
         }
-
         .footer-section ul li {
             margin-bottom: 0.5rem;
         }
-
         .footer-section ul li a {
             color: #bbb;
             text-decoration: none;
             transition: color 0.3s;
         }
-
         .footer-section ul li a:hover {
             color: #4ECDC4;
         }
-
         .footer-bottom {
             text-align: center;
             padding-top: 2rem;
             border-top: 1px solid #444;
             color: #999;
         }
-
         /* 반응형 디자인 */
         @media (max-width: 768px) {
             .nav-menu {
                 display: none;
             }
-
             .hero-title {
                 font-size: 2.5rem;
             }
-
             .hero-subtitle {
                 font-size: 1.2rem;
             }
-
             .hero-buttons {
                 flex-direction: column;
                 align-items: center;
             }
-
             .section-title {
                 font-size: 2rem;
             }
-
             .problem-grid,
             .features-grid,
             .target-grid {
@@ -476,7 +409,6 @@
             <a href="#cta" class="cta-button">무료 체험하기</a>
         </nav>
     </header>
-
     <!-- 히어로 섹션 -->
     <section class="hero">
         <div class="hero-content">
@@ -493,7 +425,6 @@
             </div>
         </div>
     </section>
-
     <!-- 문제 섹션 -->
     <section class="problem-section">
         <div class="container">
@@ -522,7 +453,6 @@
             </div>
         </div>
     </section>
-
     <!-- 솔루션 섹션 -->
     <section class="solution-section" id="features">
         <div class="container">
@@ -539,7 +469,6 @@
                         <li>안전도 및 시설 정보</li>
                     </ul>
                 </div>
-                
                 <div class="feature-card">
                     <div class="feature-icon">🎯</div>
                     <h3 class="feature-title">맞춤형 놀이 가이드</h3>
@@ -550,8 +479,7 @@
                         <li>교육적 놀이 콘텐츠</li>
                         <li>안전 놀이 가이드</li>
                     </ul>
-                </div>
-                
+                </div>                
                 <div class="feature-card">
                     <div class="feature-icon">🎪</div>
                     <h3 class="feature-title">전문가 놀이 프로그램</h3>
@@ -562,8 +490,7 @@
                         <li>계절별 테마 놀이 투어</li>
                         <li>전통 놀이 체험 프로그램</li>
                     </ul>
-                </div>
-                
+                </div>                
                 <div class="feature-card">
                     <div class="feature-icon">🏘️</div>
                     <h3 class="feature-title">지역 연계 체험</h3>
@@ -578,7 +505,6 @@
             </div>
         </div>
     </section>
-
     <!-- 타겟 섹션 -->
     <section class="target-section" id="target">
         <div class="container">
@@ -607,7 +533,6 @@
             </div>
         </div>
     </section>
-
     <!-- CTA 섹션 -->
     <section class="cta-section" id="cta">
         <div class="container">
@@ -624,7 +549,6 @@
             </div>
         </div>
     </section>
-
     <!-- 푸터 -->
     <footer class="footer" id="contact">
         <div class="container">
